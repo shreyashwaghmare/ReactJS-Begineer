@@ -88,6 +88,35 @@ body {
   vertical-align: middle;
 }
 
+.btn-getStarted{
+  height: 43px;
+  width: 130px;
+  color: #fff;
+  border-radius: 4px;
+  margin: 0px;
+  background-color: rgb(138, 81, 109);
+  font-size: large;
+  padding:0px 1px;
+  border: 0;
+  cursor: pointer;
+}
+.btn-getinTouch{
+  height: 43px;
+  width: 130px;
+  color: #fff; 
+  border-radius: 4px;
+  margin: 0px;
+  background-color: rgba(82, 161, 151, 0.747);
+  font-size: large;
+  padding:0px 1px;
+  border: 0;
+  cursor: pointer;
+}
+.section-getStarted{
+  background-color: rgb(174, 179, 221);
+  padding: 5px;
+}
+
 footer {
   background-color: #1c267e;
   p {
@@ -159,6 +188,26 @@ footer {
   }
   
 }
+
+.section-experience{
+  display: flex;
+  height: 80;
+}
+.box-experience {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  max-width: 80%;
+  margin: auto;
+  height: 80%;
+  }
+.text-experience{
+  font-size: 30px;
+  justify-content: left;
+  align-items: left;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
