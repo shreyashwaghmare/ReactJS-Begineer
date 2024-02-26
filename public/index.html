@@ -10,34 +10,131 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <title>HYDRA web App</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <div id="root">
+      <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo">
+                <img src="./HYDRA LOGO.png"/>
+                <div class="brandName">
+                  <h1>Hydra Corporation</h1>
+                  <p>the continuous state of renewal</p>
+                </div>
+            </div>
+            <li>
+                <a href="#courses">Home</a>
+            </li>
+            <li>
+                <a href="#tutorials">Projects</a>
+            </li>
+            <li>
+                <a href="#student">About US</a>
+            </li>
+        </ul>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+        <div class="rightNav">
+            <input
+                type="text"
+                name="search"
+                id="search"
+            />
+            <button href="" class="btn btn-sm">
+                Search
+            </button>
+        </div>
+        
+  
+    </nav>
+      <section class="section">
+        <div class="box-main">
+            <div class="firstHalf">
+                <h1 class="text-big">
+                    7 Best Tips To Boost Up Your Bussiness 
+                </h1>
+                <p class="text-small">
+                    Hunting down a relevant customers
+                    base and with proper techniques for
+                    showcasing your potential to the
+                    market. But with the advent of
+                    COVID-19, it has become a bit
+                    challenging and competitive to
+                    reach out to people and provide service.
+                    Many individuals suffered huge loses during these times, and on
+                    the other hand, new startups are
+                    facing difficulties in unstable market. But
+                    there is no need for panic, you
+                    can change your ways and
+                    streamline things in a way that HYDRA Corporstion does.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+      <div class="box-main">
+          <div class="secondHalf">
+              <h1 class="text-big" id="program">
+                  Street Marketing
+              </h1>
+              <p class="text-small">
+                Auto rickshaw marketing, also known as auto branding, 
+                is a form of transit media advertising that involves pasting flex posters
+                on auto-rickshaws. It's one of the oldest forms of advertising
+                 and is a form of mass advertising.
+                 Marketing for business is a highly valuable tool as it helps to
+                  create brand awareness, drive profit and growth, acquire and
+                   retain customers, and enhance engagement. Effective marketing 
+                   strategies play a pivotal role in establishing a strong presence 
+                   in the market and connecting with the target audience.
+              </p>
+          </div>
+      </div>
+  </section>
+  <section class="section-experience">
+     <div class="box-experience">
+      <div>
+        <img src="./customers-find.webp" />
+     </div>
+     <div>
+        <p class="text-experience" >
+          For 15 years, we've been the leader in helping our customers find 
+          their best customers.
+        </p>
+        <p class="text-small">
+          The HYDRA corporation is powered by 15+ years of data from hundreds 
+          of thousands of brands and billions of shoppers. Let our expertise find 
+          the right customers for your business....
+        </p>
+        <p class="link">
+        <a href="">
+          Learn More &#8594;
+        </a>
+      </p>
+     </div>
+   </div>
+  </section>
+  <section class="section-getStarted">
+    <div>
+      <h1 class="text-big">Increase ROI. Learn from your data.</h1>
+      <h1 class="text-big">Maximize sales.</h1>
+      <div>
+      <button href=" " class="btn-getStarted">
+        Get Started
+    </button>
+    <button href=" " class="btn-getinTouch">
+      Get in touch
+  </button>
+      </div>
+    </div>
+  </section>
+  <footer className="footer">
+    <p className="text-footer">
+      Copyright ©-All rights are reserved by HYDRA 
+  </p>
+  </footer>
+    </div>
   </body>
+  
 </html>

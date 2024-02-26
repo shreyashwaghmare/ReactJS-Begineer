@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 class Home {
     constructor(name){
@@ -28,8 +29,7 @@ const colonyName= myColony.getColonyName();
 const firstElement = <h1>Hello Hydra!</h1>;
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const array = [firstElement,myColony.colony,colonyName];
-const array2 = array.map((item)=><h1>{item}</h1>)
-root.render(array2);
+//root.render(<App/>);
 
 
 // If you want to start measuring performance in your app, pass a function
