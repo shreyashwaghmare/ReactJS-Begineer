@@ -94,7 +94,7 @@ body {
   color: #fff;
   border-radius: 4px;
   margin: 0px;
-  background-color: rgb(138, 81, 109);
+  background-color: rgba(141, 12, 74, 0.685);
   font-size: large;
   padding:0px 1px;
   border: 0;
@@ -106,7 +106,7 @@ body {
   color: #fff; 
   border-radius: 4px;
   margin: 0px;
-  background-color: rgba(82, 161, 151, 0.747);
+  background-color: rgba(71, 5, 124, 0.459);
   font-size: large;
   padding:0px 1px;
   border: 0;
@@ -165,11 +165,14 @@ footer {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana,
       sans-serif;
   font-size: 30px;
+  padding: 2px;
 }
 
 .text-small {
   font-size: 18px;
   margin: 0px;
+  text-align: left;
+  padding: 1px;
 }
 
   div {
@@ -191,21 +194,34 @@ footer {
 
 .section-experience{
   display: flex;
-  height: 80;
+  height: 80%;
+  background-color: cadetblue;
+  padding: 5px 2px;
 }
 .box-experience {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
   color: black;
   max-width: 80%;
   margin: auto;
   height: 80%;
+  padding: 2px;
   }
+
 .text-experience{
   font-size: 30px;
-  justify-content: left;
-  align-items: left;
+  text-align: left;
+  margin: 0px 0px;
+  color: rgba(23, 86, 128, 0.959);
+}
+
+.link{
+  margin: 0;
+  padding: 1px 2px;
+  text-align: left;
+  font-style: normal;
+  color: #1d285e;
 }
 
 
